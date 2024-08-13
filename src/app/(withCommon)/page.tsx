@@ -1,12 +1,15 @@
-import React from "react";
-import Button from "@mui/material/Button";
+import Banner from "@/components/ui/HomePage/Banner/Banner";
+import BestSelling from "@/components/ui/HomePage/BestSelling/BestSelling";
+import OurService from "@/components/ui/HomePage/OurService/OurService";
 
 const HomePage = () => {
   return (
     <div>
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <Banner />
+
+      <OurService />
+
+      <BestSelling />
     </div>
   );
 };

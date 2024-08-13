@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-text-color {
+  @apply text-[#2a96ff];
+}
